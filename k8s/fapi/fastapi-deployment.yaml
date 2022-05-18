@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: 'tsadimas/fastapi:2022nr'
+          image: 'ghcr.io/ba055482/pms8-fastapi:latest'
           ports:
             - containerPort: 8000
           envFrom:
